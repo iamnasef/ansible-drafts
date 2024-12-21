@@ -2,6 +2,8 @@
 ansible_connection=ssh
 ansible_user=nasef
 ansible_ssh_pass=P@ssw0rd@123
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
 
 
 [webserver]
