@@ -1,6 +1,6 @@
 [webserver]
-192.168.18.134
-192.168.18.135
+server1 ansible_host=192.168.18.134
+server2 ansible_host=192.168.18.135
 
 [proxy]
-192.168.18.136
+server3 ansible_host=192.168.18.136
